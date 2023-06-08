@@ -37,14 +37,14 @@ parser.add_argument("--save_times",default=20,type=int)
 parser.add_argument("--lr",default=0.002,type=float)
 
 # 数据集的存储位置 分别是两个数据集的训练数据位置
-parser.add_argument("--data1_dir",default=r'F:\代码和数据集-5.24\提取的红外和WiFi特征\fea_wifi_3000x512.mat',type=str)
+parser.add_argument("--data1_dir",default=r'Fusion_models\Features\fea_wifi_3000x512.mat',type=str)
 
-parser.add_argument("--data2_dir",default=r"F:\代码和数据集-5.24\提取的红外和WiFi特征\if10rgbflow_3000x4096.mat",type=str)
+parser.add_argument("--data2_dir",default=r"Fusion_models\Features\if10rgbflow_3000x4096.mat",type=str)
 
-parser.add_argument("--label_dir",default=r"F:\代码和数据集-5.24\提取的红外和WiFi特征\label1_3000x1.mat",type=str)
+parser.add_argument("--label_dir",default=r"Fusion_models\Features\label1_3000x1.mat",type=str)
 
 # teacher model教师模型，选取最好的模型来作为教师模型 也就是model level的模型，得到check point
-parser.add_argument("--teacher_dir",default=r"F:\代码和数据集-5.24\Fusion_models\checkpoint\Resnet_model_level_2023-05-25\best_epoch_model.pth")
+parser.add_argument("--teacher_dir",default=r"Fusion_models\Fusion_models\checkpoint\Resnet_model_level_2023-05-25\best_epoch_model.pth")
 
 # 批次大小
 #adiac选32 beef选4
