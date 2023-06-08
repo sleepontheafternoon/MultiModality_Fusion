@@ -12,5 +12,5 @@ This project contains four types methods.Including early fusion, later fusion, m
     - utils是需要使用到的模型及其相应改变
     - 该文件目录下的.py文件为训练文件
 ### 评价指标
-本项目实现任务为多分类，使用macro-F1,macro-P,macro-R以及Acc
+本项目实现任务为多分类，使用macro-F1,macro-P,macro-R以及Acc作为评价指标
 
