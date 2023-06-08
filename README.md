@@ -11,6 +11,9 @@ The model backbone is Resnet.You can change the depth of resnet. The arguments i
 ### 文件结构
 1. Features文件夹包括相应的模态特征以及标签
 2. Fusion_models文件夹包括训练文件以及模态融合方法
--1. checkpoint文件夹包括训练的模型权重文件
+    - checkpoint文件夹包括模型的权重文件
+    - log记录了每个文件的训练和测试情况
+    - utils是需要使用到的模型及其相应改变
+    - 该文件目录下的.py文件为训练文件
 
 
