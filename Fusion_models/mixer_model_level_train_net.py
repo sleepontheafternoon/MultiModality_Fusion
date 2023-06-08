@@ -59,11 +59,10 @@ parser.add_argument("--model_name",default="Resnet",type=str)
 # txt文件的记录编号 0
 parser.add_argument("--log_index",default=0,type=int)
 
-# 分别代表加法 堆叠 注意力机制(本身就是卷积神经网络，所以不作卷积)
+# 分别代表加法 堆叠 注意力机制
 parser.add_argument("--model_type",default=0,type=int)
 
 # 要进行分类的类别数
-# adiac 37 beef 5
 parser.add_argument("--classes",default=10,type=int)
 
 args = parser.parse_args()
