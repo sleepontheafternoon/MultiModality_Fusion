@@ -1,0 +1,7 @@
+# 注释
+*.pth
+!best_epoch_model.pth
+/IR-two-stream-pytorch
+/WIFI-CSI-LSTM
+/wifi_data_mat
+/.idea

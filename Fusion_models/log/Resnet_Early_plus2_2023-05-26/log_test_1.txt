@@ -1,0 +1,2 @@
+Epoch,Loss,Acc,macro-P,macro-R,macro-F
+0,35.506,10.000,0.010,0.100,0.018
