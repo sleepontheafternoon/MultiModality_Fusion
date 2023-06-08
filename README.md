@@ -6,4 +6,5 @@ The model backbone is Resnet.You can change the depth of resnet. The arguments i
 本项目实现了四种模态融合的方法，包括早期融合，晚期融合，混合机融合以及模型级融合。
 这里提供训练好的模型权重文件，你可以不用训练，直接导入pth文件就能得到一个不错的模型。
 这个模型的backbone是resnet。你可以改变resent的深度，包括10，18，34和50等可选深度。
+数据集描述及其方法详见description.txt文件
 
